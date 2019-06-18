@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns0:routing xmlns:ns0="http://geofon.gfz-potsdam.de/ns/Routing/1.0/">
+<!-- Test document. Not for production. -->
+	<ns0:route networkCode="3A" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2016-09-19T00:00:00" end="2016-11-30T23:59:59" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2016-09-19T00:00:00" end="2016-11-30T23:59:59" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2016-09-19T00:00:00" end="2016-11-30T23:59:59" />
+	</ns0:route>
+	<ns0:route networkCode="4A" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2009-04-07T00:00:00" end="2009-12-31T23:59:59" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2009-04-07T00:00:00" end="2009-12-31T23:59:59" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2009-04-07T00:00:00" end="2009-12-31T23:59:59" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KEA00" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2014-02-04T00:00:00" end="2014-05-22T00:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2014-02-04T00:00:00" end="2014-05-22T00:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2014-02-04T00:00:00" end="2014-05-22T00:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KEB01" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2014-02-05T00:00:00" end="2014-05-21T00:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2014-02-05T00:00:00" end="2014-05-21T00:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2014-02-05T00:00:00" end="2014-05-21T00:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KEFOR" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2014-02-05T00:00:00" end="2014-05-21T00:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2014-02-05T00:00:00" end="2014-05-21T00:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2014-02-05T00:00:00" end="2014-05-21T00:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KER02" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-17T15:40:00" end="2014-05-21T00:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-17T15:40:00" end="2014-05-21T00:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-17T15:40:00" end="2014-05-21T00:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES02" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-16T11:40:00" end="2012-04-11T23:59:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-16T11:40:00" end="2012-04-11T23:59:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-16T11:40:00" end="2012-04-11T23:59:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES04" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-16T11:50:00" end="2012-04-17T08:20:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-16T11:50:00" end="2012-04-17T08:20:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-16T11:50:00" end="2012-04-17T08:20:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES06" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-16T14:10:00" end="2012-04-17T09:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-16T14:10:00" end="2012-04-17T09:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-16T14:10:00" end="2012-04-17T09:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES08" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-17T08:40:00" end="2012-04-17T09:40:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-17T08:40:00" end="2012-04-17T09:40:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-17T08:40:00" end="2012-04-17T09:40:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES11" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-17T14:10:00" end="2012-04-17T13:30:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-17T14:10:00" end="2012-04-17T13:30:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-17T14:10:00" end="2012-04-17T13:30:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES13" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-17T10:20:00" end="2014-05-22T00:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-17T10:20:00" end="2014-05-22T00:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-17T10:20:00" end="2014-05-22T00:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES14" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-18T07:00:00" end="2012-04-18T15:40:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-18T07:00:00" end="2012-04-18T15:40:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-18T07:00:00" end="2012-04-18T15:40:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES16" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-17T14:10:00" end="2012-04-18T14:40:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-17T14:10:00" end="2012-04-18T14:40:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-17T14:10:00" end="2012-04-18T14:40:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES18" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-17T17:10:00" end="2012-04-18T13:40:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-17T17:10:00" end="2012-04-18T13:40:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-17T17:10:00" end="2012-04-18T13:40:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES20" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2014-02-04T00:00:00" end="2014-05-21T00:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2014-02-04T00:00:00" end="2014-05-21T00:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2014-02-04T00:00:00" end="2014-05-21T00:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES22" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-17T07:40:00" end="2012-04-18T09:10:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-17T07:40:00" end="2012-04-18T09:10:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-17T07:40:00" end="2012-04-18T09:10:00" />
+	</ns0:route>
+	<ns0:route networkCode="4C" stationCode="KES29" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2011-09-18T09:40:00" end="2012-04-20T13:50:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2011-09-18T09:40:00" end="2012-04-20T13:50:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2011-09-18T09:40:00" end="2012-04-20T13:50:00" />
+	</ns0:route>
+	<ns0:route networkCode="5J" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2014-07-16T00:00:00" end="2016-09-27T23:59:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2014-07-16T00:00:00" end="2016-09-27T23:59:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2014-07-16T00:00:00" end="2016-09-27T23:59:00" />
+	</ns0:route>
+	<ns0:route networkCode="AC" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2002-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2002-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2002-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="BA" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2005-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2005-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2005-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="GU" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="1980-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="1980-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="1980-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="IV" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="1988-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="1988-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="1988-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="IX" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2005-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2005-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2005-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="MN" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="1988-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="1988-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="1988-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="NI" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2002-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2002-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2002-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="OT" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2013-04-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2013-04-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2013-04-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="OX" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2016-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2016-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2016-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="RF" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="1993-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="1993-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="1993-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="SI" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2006-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2006-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2006-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="ST" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="1981-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="1981-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="1981-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="TV" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2008-01-01T00:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2008-01-01T00:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2008-01-01T00:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="XO" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2016-08-24T00:00:00" end="2017-11-07T23:59:59" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2016-08-24T00:00:00" end="2017-11-07T23:59:59" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2016-08-24T00:00:00" end="2017-11-07T23:59:59" />
+	</ns0:route>
+	<ns0:route networkCode="YD" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2018-08-17T00:00:00" end="2019-08-18T00:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2018-08-17T00:00:00" end="2019-08-18T00:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2018-08-17T00:00:00" end="2019-08-18T00:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A300A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-10-28T09:00:00" end="2019-04-10T23:59:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-10-28T09:00:00" end="2019-04-10T23:59:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-10-28T09:00:00" end="2019-04-10T23:59:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A301A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-10-29T09:00:00" end="2019-04-10T23:59:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-10-29T09:00:00" end="2019-04-10T23:59:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-10-29T09:00:00" end="2019-04-10T23:59:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A302A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-10-30T09:00:00" end="2019-04-10T23:59:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-10-30T09:00:00" end="2019-04-10T23:59:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-10-30T09:00:00" end="2019-04-10T23:59:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A303A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-10-26T09:00:00" end="2019-04-10T23:59:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-10-26T09:00:00" end="2019-04-10T23:59:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-10-26T09:00:00" end="2019-04-10T23:59:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A304A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2016-02-05T12:00:00" end="2019-04-16T15:30:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2016-02-05T12:00:00" end="2019-04-16T15:30:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2016-02-05T12:00:00" end="2019-04-16T15:30:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A305A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-10-29T13:02:08" end="2019-04-16T14:15:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-10-29T13:02:08" end="2019-04-16T14:15:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-10-29T13:02:08" end="2019-04-16T14:15:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A306A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-11-04T11:49:48" end="2019-04-17T11:45:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-11-04T11:49:48" end="2019-04-17T11:45:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-11-04T11:49:48" end="2019-04-17T11:45:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A307A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-11-05T10:41:48" end="2019-04-17T15:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-11-05T10:41:48" end="2019-04-17T15:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-11-05T10:41:48" end="2019-04-17T15:00:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A308A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-11-03T11:34:41" end="2019-04-18T11:45:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-11-03T11:34:41" end="2019-04-18T11:45:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-11-03T11:34:41" end="2019-04-18T11:45:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A309A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-10-28T12:44:33" end="2019-04-16T11:30:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-10-28T12:44:33" end="2019-04-16T11:30:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-10-28T12:44:33" end="2019-04-16T11:30:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A312A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-12-30T12:00:00" end="2019-04-29T23:59:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-12-30T12:00:00" end="2019-04-29T23:59:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-12-30T12:00:00" end="2019-04-29T23:59:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A313A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-12-30T14:00:00" end="2019-04-29T23:59:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-12-30T14:00:00" end="2019-04-29T23:59:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-12-30T14:00:00" end="2019-04-29T23:59:00" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A316A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-11-03T12:00:30" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-11-03T12:00:30" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-11-03T12:00:30" end="" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A317A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-12-15T16:00:00" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-12-15T16:00:00" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-12-15T16:00:00" end="" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A318A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-11-17T10:32:52" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-11-17T10:32:52" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-11-17T10:32:52" end="" />
+	</ns0:route>
+	<ns0:route networkCode="Z3" stationCode="A319A" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2015-12-11T12:06:34" end="" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2015-12-11T12:06:34" end="" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2015-12-11T12:06:34" end="" />
+	</ns0:route>
+	<ns0:route networkCode="ZM" stationCode="*" locationCode="*" streamCode="*">
+		<ns0:station address="http://webservices.ingv.it/fdsnws/station/1/query" priority="1" start="2017-08-26T00:00:00" end="2019-12-31T00:00:00" />
+		<ns0:wfcatalog address="http://catalog.data.ingv.it/wfcatalog/1/query" priority="1" start="2017-08-26T00:00:00" end="2019-12-31T00:00:00" />
+		<ns0:dataselect address="http://webservices.ingv.it/fdsnws/dataselect/1/query" priority="1" start="2017-08-26T00:00:00" end="2019-12-31T00:00:00" />
+	</ns0:route>
+</ns0:routing>
