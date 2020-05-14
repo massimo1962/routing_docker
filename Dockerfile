@@ -54,6 +54,9 @@ WORKDIR /var/www/eidaws/routing/1/data
 COPY routingconf/routing.xml  /var/www/eidaws/routing/1/data/
 RUN chmod +xr /var/www/eidaws/routing/1/data/routing.xml
 
+COPY generate_eida_routing_xml_ingv.py  /var/www/eidaws/routing/1/data/
+RUN chmod +xr /var/www/eidaws/routing/1/data/generate_eida_routing_xml_ingv.py
+
 # entryPoint
 # COPY docker-entrypoint.sh /usr/local/bin/
 # RUN chmod +xr /usr/local/bin/docker-entrypoint.sh
